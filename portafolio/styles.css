@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Estilos del header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* Secciones generales */
+  section {
+    padding: 4rem 2rem;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* Sección Sobre Mí */
+  #sobre-mi p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  /* Sección Tecnologías */
+  .tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .tech-item {
+    flex: 1 1 150px;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .tech-item i {
+    font-size: 4rem;
+    color: #e44d26; /* Color por defecto, puedes cambiar según la tecnología */
+  }
+  
+  .tech-item p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  /* Colores para diferentes tecnologías */
+  .tech-item:nth-child(1) i {
+    color: #e44d26; /* HTML5 */
+  }
+  
+  .tech-item:nth-child(2) i {
+    color: #264de4; /* CSS3 */
+  }
+  
+  .tech-item:nth-child(3) i {
+    color: #f0db4f; /* JavaScript */
+  }
+  
+  .tech-item:nth-child(4) i {
+    color: #306998; /* Python */
+  }
+  
+  .tech-item:nth-child(5) i {
+    color: #68a063; /* Node.js */
+  }
+  
+  
+  
+  /* Sección Proyectos */
+  #proyectos .proyecto {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  #proyectos .proyecto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  #proyectos .proyecto h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  #proyectos .proyecto p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  /* Sección Contacto */
+  #contacto {
+    text-align: center;
+  }
+  
+  #contacto a {
+    font-size: 1.5rem;
+    color: #0e76a8;
+    text-decoration: none;
+  }
+  
+  #contacto a i {
+    margin-right: 0.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Medios Responsivos */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    section {
+      padding: 2rem 1rem;
+    }
+  
+    .tech-icons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .tech-item {
+      max-width: none;
+    }
+  }
+  
